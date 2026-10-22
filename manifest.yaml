@@ -1,0 +1,10 @@
+schemaVersion: "1.0.0"
+name: WildFly override manifest
+description: Overrides WildFly Galleon plugins and WildFly config gen to 8.2.3.Final
+streams:
+  - groupId: org.wildfly.galleon-plugins
+    artifactId: wildfly-galleon-plugins
+    version: 8.2.3.Final
+  - groupId: org.wildfly.galleon-plugins
+    artifactId: wildfly-config-gen
+    version: 8.2.3.Final
